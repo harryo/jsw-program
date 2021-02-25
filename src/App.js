@@ -32,14 +32,16 @@ function App() {
           </>
         ) :
           (
-            <Spinner animation="border" role="status">
-              <span className="sr-only">Loading...</span>
-            </Spinner>
+            <div className="text-center py-5">
+              <Spinner animation="border" role="status">
+                <span className="sr-only">Loading...</span>
+              </Spinner>
+            </div>
           )}
       <footer className="px-3 py-4 smaller text-muted">
         <span> </span>
         <span>
-          Developed by Harry Oosterveen, <a href="https://www.harryonline.net/">HarryOnline <img alt="HarryOnline logo" src="https://s3-eu-west-1.amazonaws.com/logos.harryonline/ho_logo_24x26.png" height="12" width="14" /></a>
+          Developed by Harry Oosterveen, <a className="font-italic" href="https://www.harryonline.net/">HarryOnline <img alt="HarryOnline logo" src="https://s3-eu-west-1.amazonaws.com/logos.harryonline/ho_logo_24x26.png" height="12" width="14" /></a>
         </span>
         <span>
           <a href="https://github.com/harryo/jsw-program">Source Code</a>
